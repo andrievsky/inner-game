@@ -2,6 +2,7 @@
 
 ## Impl. details ##
 * Actors state are distributed along models to keep the code clear, flexible and testable
+* Code style - For the project I used Golang style for getters/setters insted of native C# to compare
 * Views and Presenter are as simple because they're out of this project scope at this point
 * Engineer-style UI
 
