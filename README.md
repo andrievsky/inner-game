@@ -19,7 +19,8 @@
 
 ## Controls ##
 
-###Action ###
+### Action ###
+
 * **Q** Select Character
 * **W** Attack
 * **E** Heal
