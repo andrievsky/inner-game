@@ -127,6 +127,7 @@ namespace Code.BattleSimulation
 
             UpdateLog(res);
             UpdateActor(actor);
+            _model.ReleaseResult(res);
         }
 
         public void Dispose()
