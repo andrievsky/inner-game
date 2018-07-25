@@ -1,5 +1,9 @@
 # RPG style battle simulation example
 
+# Disclaimer - Zenject and Actors have been used for educational purposes. Please do not use entities approach and deps injection in a project this scale :)
+
+
+
 ## Impl. details ##
 * Actors state are distributed along models to keep the code clear, flexible and testable
 * Code style - For the project I used Golang style for getters/setters insted of native C# to compare
