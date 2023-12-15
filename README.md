@@ -1,14 +1,12 @@
 # RPG style battle simulation example
 
-# Disclaimer - Zenject and Actors have been used for educational purposes. Please do not use entities approach and deps injection in a project this scale :)
+# Disclaimer - Zenject and Actors have been used as a showcase.
 
 
 
 ## Impl. details ##
-* Actors state are distributed along models to keep the code clear, flexible and testable
-* Code style - For the project I used Golang style for getters/setters insted of native C# to compare
-* Views and Presenter are as simple because they're out of this project scope at this point
-* Engineer-style UI
+* Actors state are distributed along models, each model responsible for single property like health or position.
+* Views, Presenters and UI are as simple because they can be
 
 ## Abbilities ##
 * Attack
@@ -21,15 +19,13 @@
 * Configs
 * Move and Attack Ranges
 
-## Controls ##
-
 ### Action ###
+(Click on Character to apply)
 
 * **Q** Select Character
 * **W** Attack
 * **E** Heal
 
-(and click on Character to apply)
 
 ### Move ###
 Select character and click on "highlited" tiles
