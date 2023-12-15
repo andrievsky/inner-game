@@ -1,6 +1,6 @@
 # RPG style battle simulation example
 
-# Disclaimer - Zenject and Actors have been used as a showcase.
+# Disclaimer - Zenject and Actors have been used as a showcase
 
 
 
